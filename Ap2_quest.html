@@ -1,0 +1,114 @@
+
+<h1>AP2 - Prática de Programaçao</h1>
+
+<h2>Proposta de Trabalho</h2>
+
+<meta charset="UTF-8">
+<script>
+
+document.write("Soluções das questoes" + "<br>");
+
+/*__________________________________________________________________________*/
+/* Qestão 1 */
+document.write("<br>"+"Questao 1" + "<br>");
+document.write("Faça um programa que entre com três números, faça a média aritmética e mostre o resultado."+"<br>")
+document.write("<br>");
+
+document.write("O primeiro número é 12" + "<br>")
+document.write("O primeiro número é 15" + "<br>")
+document.write("O primeiro número é 13" + "<br>")
+document.write("<br>");
+
+var primeiroNumero = 12;
+var segundoNumero = 15;
+var TerceiroNumero = 13;
+
+
+var somaNumeros = (primeiroNumero+segundoNumero+TerceiroNumero);
+document.write("A soma dos números é: " + somaNumeros);
+var mediaNumeros = (somaNumeros)/3;
+var mediaNumerosArred = Math.round((somaNumeros)/3);
+document.write("<br>");
+document.write("A media dos numeros é: " + mediaNumeros + "<br>");
+document.write("A media arrendondada dos numeros é: " + mediaNumerosArred);
+
+
+/*__________________________________________________________________________*/
+/* Qestão 2 */
+document.write("<br>" + "<br>" +"Questao 2" + "<br>");
+document.write("Faça um programa que entre com o nome e o salário de um funcionário e mostre seu novo salário, sabendo que o mesmo teve um aumento de 10%."+"<br>");
+
+document.write("<br>" + "<br>" +"Questao 2" + "<br>");
+document.write("Faça um programa que entre com o nome e o salário de um funcionário e mostre seu novo salário, sabendo que o mesmo teve um aumento de 10%."+"<br>");
+
+document.write("O nome do funcionário é PedroFidélis" + "<br>");
+document.write("Seu salário inicial é de R$ 1700,00" + "<br>");
+var nomeFuncionario = "Pedro Fidélis";
+var salarioInicial = 1700;
+var aumentoSalario = (1700*0.1);
+document.write ("O aumento do salário de " + nomeFuncionario + "  foi de " + "R$ " + aumentoSalario +",00" + "<br>");
+var salarioFinal = (salarioInicial+aumentoSalario);
+document.write("O salário final de " + nomeFuncionario +"  será de " + "R$" + salarioFinal +",00" + "<br>"+"<br>");
+
+/*__________________________________________________________________________*/
+// Qestão 3
+document.write("<br>"+ "Questao 3" + "<br>");
+document.write("Faça um programa que leia dois valores inteiros A e B se os valores forem iguais devem ser somado os dois, caso contrário multiplique A por B ao final do cálculo atribuir o valor para uma variável C."+"<br>");
+
+var A = parseInt(prompt('Digite um número: '));
+  alert( 'Você digitou  ' + A);
+var B = parseInt(prompt('Digite outro número: '));
+  alert( 'Você digitou  ' + B);
+
+if (A == B) {
+	var C = (A + B);
+	alert ('Os números são iguais, a soma é: ' + C);
+}
+else {
+	var C = (A * B);
+	alert ('Os números são diferentes, o produto é: ' + C);
+}
+
+/*__________________________________________________________________________*/
+/* Qestão 4 */
+document.write("<br>"+"Questao 4" + "<br>");
+document.write("A partir do preço à vista de um determinado produto, calcule o preço total a pagar e o valor da prestação mensal, referentes ao pagamento parcelado. Se o pagamento for parcelado em 3 vezes deve ser dado um acréscimo de 10% no total a ser pago. Se o parcelamento for em 5 vezes, o acréscimo será de 20%."+"<br>")
+// usar a atribuiçao: cálcula o acréscimo e atribui ao valor original 
+/*__________________________________________________________________________*/
+/* Qestão 5 */
+document.write("<br>"+"Questao 5" + "<br>");
+document.write("Faça um programa que leia o nome e as três notas de uma disciplina de um aluno e ao final escreva o nome do aluno, sua média e se ele foi aprovado, sabendo-se que a média para aprovação é igual ou superior a 8."+"<br>");
+/*__________________________________________________________________________*/
+/* Qestão 6 */
+document.write("<br>"+"Questao 6" + "<br>");
+document.write("Escreva um programa que receba dois números reais e um código de seleção do usuário. Se o código digitado for 1, faça o programa adicionar os dois números previamente digitados e mostrar o resultado; se o código de seleção for 2, os números deverão ser multiplicados; se o código de seleção for 3, o primeiro número deve ser dividido pelo segundo"+"<br>");
+
+/*__________________________________________________________________________*/
+/* Qestão 7 */
+document.write("<br>"+"Questao 7" + "<br>");
+document.write("Leia 20 valores reais e calcule seu somatório utilizando a instrução while."+"<br>");
+
+
+/*__________________________________________________________________________*/
+/* Qestão 8 */
+document.write("<br>"+"Questao 8" + "<br>");
+document.write("Leia 20 valores reais e calcule seu somatório utilizando a instrução do...while."+"<br>");
+
+
+/*__________________________________________________________________________*/
+/* Qestão 9 */
+document.write("<br>"+"Questao 9" + "<br>");
+document.write("Faça um programa, utilizando as estruturas de repetição, onde o programa deverá finalizar quando o usuário digitar 0, caso contrário ficará cadastrando os pedidos, agora vai poder acumular mais de um produto e ao final deverá ser dada a soma dos pedidos. O cardápio de uma casa de lanches é dado pela tabela abaixo:" +"<br>"+ "Escreva um programa que leia o código do item adquirido pelo consumidor e a quantidade, calculando e mostrando o valor a pagar. Não será necessário exibir o produto e o valor, somente o valor final."+"<br>");
+
+
+/*__________________________________________________________________________*/
+/* Qestão 10 */
+document.write("<br>"+"Questao 10" + "<br>");
+document.write("Faça um Programa que apresente o quadrado de cada um dos números pares entre 1 a 100. Soluções das questoes"+"<br>");
+
+
+/*__________________________________________________________________________*/
+/* Qestão 11 */
+document.write("<br>"+"Questao 11" + "<br>");
+document.write("Faça um Programa que apresente o quadrado de cada um dos números pares entre 1 a 100");
+</script>

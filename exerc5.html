@@ -1,0 +1,18 @@
+<script type="text/javascript">
+	/* Qestão 5 */
+document.write("<br>"+"Questao 5" + "<br>");
+document.write("Faça um programa que leia o nome e as três notas de uma disciplina de um aluno e ao final escreva o nome do aluno, sua média e se ele foi aprovado, sabendo-se que a média para aprovação é igual ou superior a 8."+"<br>");	
+
+var nomeAluno = prompt("digite seu nome: ");
+var nota1 = prompt('digita a primeira nota: ');
+var nota2 = prompt('digita a segunda nota: ');
+var nota3 = prompt('digita a terceira nota: ');
+var mediaFinal = parseInt((nota1 + nota2 + nota3)/3);
+alert(nomeAluno + "   sua media é: " + mediaFinal);
+if (mediaFinal >= 8){
+	alert(nomeAluno + "   sua media é: " + mediaFinal + " situação: aprovado");
+}else{
+	alert(nomeAluno + "   sua media é: " + mediaFinal + " situação: reprovado");
+}
+
+</script>
